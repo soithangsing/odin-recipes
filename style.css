@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 
 
 body {
     background-color:lemonchiffon;
     font-size: 22px;
-    font-family: 'Roboto Slab', 'Verdana';
+    font-family: 'Arvo', 'Verdana';
 }
 
+a {
+    margin: 1rem;
+}
+
+/* Added auto width and height and margin to align box-model to center */
 .site-header {
     text-align: center;
     background-color: orange;
@@ -17,8 +22,13 @@ body {
     font-size: 34px;
     font-weight: bold;
     font-family: 'Barrio', 'Verdana';
+    width: auto;
+    height: fit-content;
+    margin:auto;
+    text-align: center;
 }
 
+/* Added Open Sans as font */
 .recipe-list {
     margin-top: 3.5rem;
     position: static;
@@ -38,11 +48,20 @@ body {
     margin-top: 3.5rem;
 }
 
+/* Added a margin to aligh with recipe container */
+img {
+    margin: 1rem;
+    
+}
+/* Added margin and padding */
 .recipe-container {
     background-color:wheat;
     text-align: left;
+    padding: 2.5rem;
+    margin: 1rem;
 }
 
+/* Could use a class for recipe-headings */
 h3, h4 {
     font-family: 'Open Sans', Helvetica;
 }
