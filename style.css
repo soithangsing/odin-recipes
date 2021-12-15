@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 
 
 body {
     background-color:lemonchiffon;
     font-size: 22px;
-    font-family: 'Montaga', 'Verdana';
+    font-family: 'Roboto Slab', 'Verdana';
 }
 
 .site-header {
@@ -25,10 +26,12 @@ body {
     font-size: 26px;
     width: fit-content;
     height: fit-content;
-    text-align: center;
+    text-align: left;
     margin-right: auto;
     margin-bottom: auto;
-    margin-left: auto;}
+    margin-left: auto;
+    font-family: 'Open Sans', Helvetica;
+}
 
 .footer-text {
     text-align: center;
@@ -38,4 +41,8 @@ body {
 .recipe-container {
     background-color:wheat;
     text-align: left;
+}
+
+h3, h4 {
+    font-family: 'Open Sans', Helvetica;
 }
