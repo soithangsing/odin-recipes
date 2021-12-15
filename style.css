@@ -10,10 +10,6 @@ body {
     font-family: 'Arvo', 'Verdana';
 }
 
-a {
-    margin: 1rem;
-}
-
 /* Added auto width and height and margin to align box-model to center */
 .site-header {
     text-align: center;
