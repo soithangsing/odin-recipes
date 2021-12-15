@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
 
+
+
 body {
     background-color:lemonchiffon;
     font-size: 22px;
@@ -17,13 +19,20 @@ body {
 }
 
 .recipe-list {
-    color: white;
+    margin-top: 3.5rem;
+    position: static;
+    color: orange;
     font-size: 26px;
-    text-align: left;
-}
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;}
 
 .footer-text {
-    text-align: right;
+    text-align: center;
+    margin-top: 3.5rem;
 }
 
 .recipe-container {
