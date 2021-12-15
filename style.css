@@ -1,0 +1,21 @@
+* {
+    background-color:wheat;
+}
+
+.site-header {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.recipe-list {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+.footer-text {
+    text-align: right;
+}
