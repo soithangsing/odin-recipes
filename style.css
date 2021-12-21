@@ -33,10 +33,11 @@ body {
 .recipe-list {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: auto;
+    width: auto;
     gap: 10px;
+    flex: 1 1 0%;
     padding: 10px;
-    justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 50px;
@@ -73,7 +74,7 @@ body {
     flex-wrap: wrap;
     color:tomato;
     padding: 15px;
-
+    align-self: flex-end;
 }
 
 /* Added a margin to aligh with recipe container */
