@@ -23,6 +23,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 16px;
     flex: auto;  
 }
@@ -51,12 +52,13 @@ ul {
     padding: 22px;
 }
 
-/* Added Open Sans as font */
 .recipe-list {
-    margin: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
     display: flex;
     flex: 1;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     font-size: 26px;
     font-family: 'Open Sans', Helvetica;
 }
