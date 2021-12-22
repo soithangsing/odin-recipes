@@ -9,6 +9,7 @@ body {
     font-size: 22px;
     font-family: 'Arvo', 'Verdana';
     height: 100vh;
+    width: 100%;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -25,7 +26,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    flex: auto;  
+    flex: 1 1 auto;  
 }
 
 .recipe-list a {
