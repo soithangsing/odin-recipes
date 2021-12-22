@@ -8,8 +8,29 @@ body {
     background-color:lemonchiffon;
     font-size: 22px;
     font-family: 'Arvo', 'Verdana';
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 8px 16px;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex: auto;  
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color:darkgreen;
+}
 /* Added a margin to links */
 .margin-link {
     margin: 0.5rem;
@@ -17,60 +38,53 @@ body {
 
 /* Added auto width and height and margin to align box-model to center */
 .site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: orange;
     color: white;
     font-size: 34px;
     font-weight: bold;
     font-family: 'Barrio', 'Verdana';
-    width: auto;
-    height: fit-content;
     margin:auto;
-    text-align: center;
+    padding: 22px;
 }
 
 /* Added Open Sans as font */
 .recipe-list {
+    margin: 16px;
     display: flex;
-    height: auto;
-    width: auto;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
+    flex: 1;
+    justify-content: space-between;
     font-size: 26px;
     font-family: 'Open Sans', Helvetica;
 }
 
 .recipe-flex-item {
     display: flex;
-    flex-direction: column;
+    flex: auto;
     background-color: peachpuff;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
-    flex: auto;
+    padding: 20px;
     width: 300px;
     height: 450px;
 }
 
 .recipe-list img {
  display: block;
- margin: auto;
+ margin:auto;
  width:100%;
  height: 300px;
 }
 
 .footer-flex-container {
     display: flex;
-    width: auto;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     color:tomato;
     padding: 15px;
 }
