@@ -47,6 +47,10 @@ body {
 
 /* Added auto width and height and margin to align box-model to center */
 .site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     text-align: center;
     background-color: orange;
     color: white;
