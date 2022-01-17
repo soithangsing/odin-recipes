@@ -48,18 +48,47 @@ body {
 /* Added auto width and height and margin to align box-model to center */
 .site-header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    text-align: center;
+    justify-content: space-between;
     background-color: orange;
     color: white;
-    font-size: 34px;
     font-weight: bold;
     font-family: 'Barrio', 'Verdana';
     margin:auto;
     padding: 22px;
 }
+
+.main-site-header {
+    display: flex;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: 'Barrio', 'Verdana';
+    width: 100%;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: white;
+    border: solid;
+    padding: 22px;
+}
+
+.header-home {
+    align-self: center;
+}
+
+.header-title {
+    align-self: center;
+    justify-self: center;
+}
+
+.index-title {
+    align-self: center;
+    justify-self:center;
+    flex-grow: 1;
+}
+
 .recipe-flex-item {
     display: flex;
     flex-direction: column;
