@@ -103,10 +103,8 @@ body {
 }
 
 .main-menu-list img {
- display: block;
- margin:auto;
- width:100%;
- height: 300px;
+ width: 400px;
+ height: 400px;
 }
 
 .footer-flex-container {
@@ -123,7 +121,7 @@ body {
     color: darkturquoise;
 }
 
-/* Added a margin to aligh with recipe container */
+/* Added a margin to align with recipe container */
 img {
     margin: 1rem;
     
@@ -135,7 +133,36 @@ img {
     margin: 1rem;
 }
 
+.original-recipe-link{
+    text-align: center;
+}
+
+.original-recipe-link a{
+    text-decoration: none;
+}
+
 /* Could use a class for recipe-headings */
 h3, h4 {
     font-family: 'Open Sans', Helvetica;
+}
+
+@media (max-width: 650px) {
+
+    body{
+        font-size: 1rem;
+    }
+
+    .index-body{
+        overflow:visible;
+    }
+    
+    .main-menu-list{
+        flex-wrap: wrap;
+        font-size: 1.2rem;
+    }
+
+    ul img {
+        width: 200px;
+        height: 200px;
+       }
 }
